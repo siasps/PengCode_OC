@@ -1,0 +1,127 @@
+PODS:
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - CHTCollectionViewWaterfallLayout (0.9.7):
+    - CHTCollectionViewWaterfallLayout/ObjC (= 0.9.7)
+  - CHTCollectionViewWaterfallLayout/ObjC (0.9.7)
+  - FLAnimatedImage (1.0.12)
+  - FXBlurView (1.6.4)
+  - IQKeyboardManager (4.0.13)
+  - KMNavigationBarTransition (1.1.5)
+  - Masonry (1.1.0)
+  - MJExtension (3.0.15.1)
+  - MJRefresh (3.1.15.7)
+  - PPNetworkHelper (0.8.1):
+    - AFNetworking (~> 3.2.0)
+    - YYCache (~> 1.0.4)
+  - Reachability (3.2)
+  - RSKImageCropper (2.2.1)
+  - SDAutoLayout (2.2.1)
+  - SDCycleScrollView (1.65):
+    - SDWebImage (~> 3.7)
+  - SDWebImage (3.8.2):
+    - SDWebImage/Core (= 3.8.2)
+  - SDWebImage/Core (3.8.2)
+  - SVProgressHUD (2.2.5)
+  - TZImagePickerController (3.1.6)
+  - WebViewJavascriptBridge (6.0.3)
+  - YYCache (1.0.4)
+  - YYModel (1.0.4)
+  - YYText (1.0.7)
+  - ZYBannerView (1.1.4)
+
+DEPENDENCIES:
+  - CHTCollectionViewWaterfallLayout
+  - FLAnimatedImage
+  - FXBlurView
+  - IQKeyboardManager (~> 4.0.13)
+  - KMNavigationBarTransition
+  - Masonry
+  - MJExtension
+  - MJRefresh
+  - PPNetworkHelper (from `https://github.com/jkpang/PPNetworkHelper.git`)
+  - Reachability
+  - RSKImageCropper
+  - SDAutoLayout
+  - SDCycleScrollView
+  - SDWebImage (~> 3.8)
+  - SVProgressHUD
+  - TZImagePickerController
+  - WebViewJavascriptBridge (~> 6.0)
+  - YYModel
+  - YYText
+  - ZYBannerView
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AFNetworking
+    - CHTCollectionViewWaterfallLayout
+    - FLAnimatedImage
+    - FXBlurView
+    - IQKeyboardManager
+    - KMNavigationBarTransition
+    - Masonry
+    - MJExtension
+    - MJRefresh
+    - Reachability
+    - RSKImageCropper
+    - SDAutoLayout
+    - SDCycleScrollView
+    - SDWebImage
+    - SVProgressHUD
+    - TZImagePickerController
+    - WebViewJavascriptBridge
+    - YYCache
+    - YYModel
+    - YYText
+    - ZYBannerView
+
+EXTERNAL SOURCES:
+  PPNetworkHelper:
+    :git: https://github.com/jkpang/PPNetworkHelper.git
+
+CHECKOUT OPTIONS:
+  PPNetworkHelper:
+    :commit: 54505979e1522fed07cc0a4ecba057010b0d8c6b
+    :git: https://github.com/jkpang/PPNetworkHelper.git
+
+SPEC CHECKSUMS:
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  CHTCollectionViewWaterfallLayout: 9d11068fafecac106695bb5a5d6d0f738483b598
+  FLAnimatedImage: 4a0b56255d9b05f18b6dd7ee06871be5d3b89e31
+  FXBlurView: db786c2561cb49a09ae98407f52460096ab8a44f
+  IQKeyboardManager: 8eab4d8111418414619d1df8e4779ce5d0f8d7e2
+  KMNavigationBarTransition: 7a52c9bc25b39b6e3343e980b453facee1591b82
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MJExtension: 19bc33ce2eee2d319760f5622562cf581a6ff756
+  MJRefresh: 697f8ec75ebdbe9207767bb682cf0f51b0d8a41f
+  PPNetworkHelper: e893191a73665e9c496c2887fd5ceece9e930bb8
+  Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
+  RSKImageCropper: 98296ad26b41753f796b6898d015509598f13d97
+  SDAutoLayout: 8bf6b3bbc8b01f775d4defbb4fda2ace805461be
+  SDCycleScrollView: f72904c77698a7f93a41bcbbc2d78b073bf7326c
+  SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  TZImagePickerController: 733aa6fd217f87c61656764f8e76b2137b6c8f47
+  WebViewJavascriptBridge: 7f5bc4d3581e672e8f32bd0f812d54bc69bb8e29
+  YYCache: 8105b6638f5e849296c71f331ff83891a4942952
+  YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
+  YYText: 5c461d709e24d55a182d1441c41dc639a18a4849
+  ZYBannerView: 477bcb8c38bb0b2a45bae014f9e4fa8357809023
+
+PODFILE CHECKSUM: 058a8cf44a1ef7349c6ef4c535a913dae1315c48
+
+COCOAPODS: 1.6.0.beta.2

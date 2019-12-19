@@ -1,3 +1,25 @@
+*.xcuserstate  
+
+project.xcworkspace  
+
+xcuserdata  
+
+UserInterfaceState.xcuserstate  
+
+project.xcworkspace/  
+
+xcuserdata/  
+
+UserInterface.xcuserstate 
+
+*.DS_Store
+
+/Pods
+PengCode_OC/Pods/
+PengCode_OC/Podfile.lock
+
+
+
 # Xcode
 #
 # gitignore contributors: remember to update Global/Xcode.gitignore, Objective-C.gitignore & Swift.gitignore
